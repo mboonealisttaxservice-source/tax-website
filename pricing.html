@@ -4,45 +4,139 @@
   <meta charset="UTF-8" />
   <meta name="description" content="Tax preparation pricing including core tax returns, add-ons, and available discounts." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pricing – Tax Preparation</title>
+  <title>Pricing – Clariom Tax Service</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
-    h1, h2 { color: #1a1a1a; }
-    ul { margin-left: 20px; }
-    a { color: #2563eb; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #1a1a1a;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    nav {
+      text-align: right;
+      margin-bottom: 30px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #1a73e8;
+    }
+    .pricing-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .pricing-list li {
+      margin-bottom: 10px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+    a.button {
+      display: inline-block;
+      margin: 8px 8px 8px 0;
+      padding: 10px 16px;
+      background: #2563eb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    a.button.secondary { background: #555; }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+    footer a {
+      color: #2563eb;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
-<h1>Pricing</h1>
+<!-- Navigation Top Right -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="pricing.html">Pricing</a>
+</nav>
 
-<h2>Core Tax Returns</h2>
-<ul>
-  <li>Individual tax return – <strong>$___</strong></li>
-  <li>Joint tax return – <strong>$___</strong></li>
-  <li>Self-employed or small business return – <strong>$___</strong></li>
-</ul>
+<!-- Business Name -->
+<h1>Clariom Tax Service</h1>
 
-<h2>Add-Ons</h2>
-<ul>
-  <li>Additional schedules or forms – <strong>$___</strong></li>
-  <li>Multiple state filings – <strong>$___</strong></li>
-  <li>Prior year return preparation – <strong>$___</strong></li>
-</ul>
+<h2>Pricing</h2>
 
-<h2>Discounts</h2>
-<ul>
-  <li>Discount #1 – <strong>describe eligibility here</strong></li>
-  <li>Discount #2 – <strong>describe eligibility here</strong></li>
-</ul>
+<p>Our pricing list is designed to help you estimate your tax preparation cost before scheduling an appointment. Each return starts with a base service and may include add-ons depending on complexity, income sources, and required forms.</p>
 
-<p>
-  Pricing may vary depending on complexity. Final pricing is confirmed before filing.
-</p>
+<p>If it's your first time filing with us, and/or you file before February 28, 2026, you are eligible for a discount of up to $60.</p>
 
-<p>
-  <a href="index.html">← Back to Home</a>
-</p>
+<p>Use the list below to calculate an estimated price. Final pricing is confirmed after document review to ensure accuracy and compliance.</p>
+
+<!-- Core Tax Returns -->
+<h3>Core Tax Returns</h3>
+<div class="pricing-list">
+  <ul>
+    <li>Single / Standard Deduction — <strong>$120</strong></li>
+    <li>Head of Household (1 dependent) — <strong>$180</strong></li>
+    <li>Married Filing Jointly (standard) — <strong>$200</strong></li>
+  </ul>
+</div>
+
+<!-- Add-On Services -->
+<h3>Add-On Services</h3>
+<div class="pricing-list">
+  <ul>
+    <li>Additional State Return — <strong>+$50</strong></li>
+    <li>Additional Dependents — <strong>+$40</strong></li>
+    <li>Schedule C (Self-Employed) — <strong>+$200</strong></li>
+    <li>Gig Work (Uber / Lyft / DoorDash) — <strong>+$250</strong></li>
+    <li>1099-NEC / MISC Income — <strong>+$250</strong></li>
+    <li>Schedule A – Itemized Deductions — <strong>+$100</strong></li>
+    <li>Education Credits (Form 8863) — <strong>+$50</strong></li>
+    <li>Earned Income / Child Tax Credit — <strong>+$50</strong></li>
+    <li>Extensions (Form 4868) — <strong>+$50</strong></li>
+    <li>Prior-Year Return (per year) — <strong>+$100</strong></li>
+    <li>Amended Return (1040X) — <strong>Starting at $75</strong></li>
+  </ul>
+</div>
+
+<!-- Discounts -->
+<h3>Discounts</h3>
+<div class="pricing-list">
+  <ul>
+    <li>First Time Filer — <strong>- $30</strong></li>
+    <li>Early Bird Special — <strong>- $30</strong></li>
+  </ul>
+</div>
+
+<p>Prices reflect base rates and common add-ons. Final pricing may vary based on return complexity and document completeness.</p>
+
+
+<!-- Footer with Contact Info -->
+<footer>
+  <p>Contact us at <a href="mailto:youremail@domain.com">youremail@domain.com</a> | <a href="tel:+1234567890">(123) 456-7890</a></p>
+  <p><a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a></p>
+</footer>
 
 </body>
 </html>
